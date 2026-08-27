@@ -3,7 +3,11 @@
 A CLI solution for campus vendors to streamline stock tracking, cart totals, and receipt generation.
 > "Every campus vendor deserves proper stock and sales records - > not just a notebook and guesswork."
 
+<<<<<<< HEAD
 Pricing: Free to use for all student vendors.
+=======
+Pricing: Free to use for all student vendors.
+>>>>>>> docs/pricing-a
 
 ## Problem Statement
 Many campus vendors and pop-up sellers tracks sales and stock manually (notebooks, phone notes), leading to lost records, pricing errors and no receipt trail for customers.
@@ -12,6 +16,7 @@ Many campus vendors and pop-up sellers tracks sales and stock manually (notebook
 - Student-run businesses (food, snacks, accesories, print services)
 - Pop-up vendors at campus events
 - Small dorm-based resellers
+
 
 ## Key Value Propositions
 | Value | Benefit |
