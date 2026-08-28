@@ -1,4 +1,5 @@
 **CampusCart**
+
 ## Startup Core Vison
 A CLI solution for campus vendors to streamline stock tracking, cart totals, and receipt generation.
 > "Every campus vendor deserves proper stock and sales records - > not just a notebook and guesswork.
