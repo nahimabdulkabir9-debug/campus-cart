@@ -14,6 +14,8 @@ Many campus vendors and pop-up sellers tracks sales and stock manually (notebook
 
 Pricing: Completely free for campus vendors
 
+**Example Personas:** A campus vendor manually records stock and sales in notebook, often losing track of inventory and facing disputes with customers over receipts.
+
 ## Key Value Propositions
 | Value | Advantage |
 |-------|---------|
