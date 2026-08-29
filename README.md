@@ -12,9 +12,8 @@ Many campus vendors and pop-up sellers tracks sales and stock manually (notebook
 - Pop-up vendors at campus events
 - Small dorm-based resellers
 
-
 ## Key Value Propositions
-| Value | Benefit |
+| Value | Benefits |
 |-------|---------|
 | Simple CLI interface | No technical skill needed to operate |
 | Accurate stock tracking | Reduces manual counting errors |
