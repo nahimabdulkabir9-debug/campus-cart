@@ -12,8 +12,6 @@ Many campus vendors and pop-up sellers tracks sales and stock manually (notebook
 - Pop-up vendors at campus events
 - Small dorm-based resellers
 
-Pricing : Free to use for all student vendors.
-
 ## Key Value Propositions
 | Value | Advantage |
 |-------|---------|
