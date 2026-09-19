@@ -9,7 +9,12 @@ Author: Nahim Abdulkabir
 #program scope: Handles CLI menu, inventory management.
 #cart operations, and checkout logic for CampusCart.
 #Inventory
-inventory = {"100":{"name":"Backpack", "condition":"New", "price":20, "stock":37}, "101":{"name":"Notebook", "condition":"New", "price":4, "stock":68}}
+inventory = {
+    "100":{"name":"Backpack", "condition":"New", "price":20, "stock":37},
+    "101":{"name":"Notebook", "condition":"New", "price":4, "stock":68},
+    "102":{"name":"Pen", "condition":"New", "price":2, "stock":100},
+    "103":{"name":"Bottled Water", "condition":"New", "price":5, "stock":157}
+            }
 cart = []
 def display_inventory():
     for item_id in inventory:
