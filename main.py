@@ -19,14 +19,13 @@ cart = []
 def display_inventory():
     for item_id in inventory:
         print("ID:", item_id, "| name:", inventory[item_id]["name"], "| Price:", inventory[item_id]["price"], "| stock:", inventory[item_id]["stock"], "| Condition:", inventory[item_id]["condition"])
-
 # To add items to cart
 def add_items():
     item_id = input("Enter item ID: ").strip()
     if not item_id in inventory:
         print("ID not found")
         return
-    
+
     requested_qty = input("Enter item quantity: ").strip()
     
     if requested_qty.isdigit():
@@ -42,8 +41,7 @@ def add_items():
         
     sub_total = requested_qty * inventory[item_id]["price"]
     if requested_qty <= inventory[item_id]["stock"]:
-        cart.append({"id": item_id, "qty": requested_qty, "subtotal": sub_total})
-        
+        cart.append({"id": item_id, "qty": requested_qty, "subtotal": sub_total})       
 # To view what has been added to cart    
 def view_cart():
     if not cart:
@@ -65,11 +63,11 @@ def checkout():
     if total > 20:
         discount = total * 0.10
         updated_total = total - discount
-        print("You have received a discount of 20%")
+        print("You have received a discount of 10%")
         print("Deducting discount from total")
         print("Here is updated your total: ", updated_total, "dollars")
     else:
-        print("Add items up to 20 dollars to recieve a discount of 20%")
+        print("Add items up to 20 dollars to recieve a discount of 10%")
     print("====== Receipt ======")
     print("---------------------------")
     for item in cart:
